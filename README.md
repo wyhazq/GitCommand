@@ -2,6 +2,56 @@
 
 [Git 工作区、暂存区和版本库](http://www.runoob.com/git/git-workspace-index-repo.html)
 
+#### add
+
+##### add all files
+
+```shell
+git add .
+```
+
+##### add some files
+
+```shell
+git add <file>...
+```
+
+
+
+#### branch
+
+##### create
+
+```shell
+git branch <branchname>
+```
+
+##### create & checkout Immediately
+
+```shell
+git checkout -b <branchname>
+```
+
+##### checkout
+
+```shell
+git checkout <branchname>
+```
+
+##### delete
+
+```shell
+git branch -d <branchname>
+```
+
+##### list all branch
+
+```shell
+git branch
+```
+
+
+
 ####clone
 
 #####clone project
@@ -9,6 +59,36 @@
 ```shell
 git clone https://github.com/wyhazq/GitCommand.git
 ```
+
+
+
+#### config
+
+##### global userInfo
+
+```shell
+git config --global user.name 'username'
+git config --global user.email test@github.com
+```
+
+##### current git userInfo
+
+```shell
+git config -f .git/config user.name 'username'
+git config -f .git/config user.email test@github.com
+```
+
+
+
+#### merge
+
+```shell
+git merge <branchname>
+```
+
+
+
+
 
 
 
@@ -27,20 +107,6 @@ git status
 ```
 
 
-
-#### add
-
-#####add some files
-
-```shell
-git add <file>...
-```
-
-#####add all files
-
-```shell
-git add .
-```
 
 
 
@@ -71,15 +137,6 @@ git diff --stat
 ```
 
 
-
-#### config
-
-#####global userInfo
-
-```shell
-git config --global user.name 'userName'
-git config --global user.email test@github.com
-```
 
 
 
@@ -159,4 +216,6 @@ git rm –r *
 ```shell
 git mv <filename> <new filename>
 ```
+
+
 
