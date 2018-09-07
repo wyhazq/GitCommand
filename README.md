@@ -92,6 +92,13 @@ git commit -am 'modify info'
 
 #### config
 
+##### current git userInfo
+
+```shell
+git config -f .git/config user.name 'username'
+git config -f .git/config user.email test@github.com
+```
+
 ##### global userInfo
 
 ```shell
@@ -99,12 +106,13 @@ git config --global user.name 'username'
 git config --global user.email test@github.com
 ```
 
-##### current git userInfo
+##### list config
 
 ```shell
-git config -f .git/config user.name 'username'
-git config -f .git/config user.email test@github.com
+git config --list
 ```
+
+
 
 
 
@@ -122,7 +130,7 @@ git diff
 git diff --cached
 ```
 
-##### both
+##### both diff
 
 ```shell
 git diff HEAD
@@ -132,6 +140,28 @@ git diff HEAD
 
 ```shell
 git diff --stat
+```
+
+
+
+#### fetch
+
+#####all update
+
+```shell
+git fetch
+```
+
+##### current branch
+
+```shell
+git fetch origin
+```
+
+##### a branch
+
+```shell
+git fetch origin <branchname>
 ```
 
 
@@ -240,6 +270,16 @@ git reset HEAD^
 
 
 
+#### remote
+
+##### remote info
+
+```shell
+git remote -v
+```
+
+
+
 #### rm
 
 #####remove work file
@@ -301,7 +341,7 @@ git tag -d <tagname>
 ##### delete remote tag
 
 ```
-git push
+git push origin :refs/tags/<tagname>
 ```
 
 
@@ -315,7 +355,10 @@ git tag
 ##### push tag
 
 ```
+//1
 git push origin <tagname>
+//2
+git push --tags
 ```
 
 
@@ -325,22 +368,3 @@ git push origin <tagname>
 #### change git history author info
 
 [change git history author info](https://help.github.com/articles/changing-author-info/)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
