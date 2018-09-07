@@ -38,16 +38,29 @@ git checkout -b <branchname>
 git checkout <branchname>
 ```
 
-##### delete
+##### delete native
 
 ```shell
 git branch -d <branchname>
 ```
 
-##### list all branch
+##### delete romote
+
+```shell
+git branch -r -d origin/<branchname>
+git push origin :<branchname>
+```
+
+##### list all native branch
 
 ```shell
 git branch
+```
+
+##### list all remote branch
+
+```shell
+git branch -r
 ```
 
 
@@ -88,10 +101,6 @@ git merge <branchname>
 
 
 
-
-
-
-
 #### status
 
 #####short status
@@ -105,8 +114,6 @@ git status -s
 ```shell
 git status
 ```
-
-
 
 
 
@@ -138,8 +145,6 @@ git diff --stat
 
 
 
-
-
 #### commit
 
 #####commit to native with modify info
@@ -153,16 +158,18 @@ git commit -m 'modify info'
 git commit -am 'modify info'
 ```
 
-
-
-
-
-
-
 #### push
 
+#####push current branch
+
 ```shell
-git push origin master
+git push origin
+```
+
+##### push a branch
+
+```shell
+git push origin <branchname>
 ```
 
 
