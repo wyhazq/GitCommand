@@ -75,6 +75,21 @@ git clone https://github.com/wyhazq/GitCommand.git
 
 
 
+#### commit
+
+##### commit to native with modify info
+
+```shell
+//1
+git add .
+git commit -m 'modify info'
+
+//2
+git commit -am 'modify info'
+```
+
+
+
 #### config
 
 ##### global userInfo
@@ -93,6 +108,82 @@ git config -f .git/config user.email test@github.com
 
 
 
+#### diff
+
+##### work & native diff
+
+```shell
+git diff
+```
+
+##### native & remote diff
+
+```shell
+git diff --cached
+```
+
+##### both
+
+```shell
+git diff HEAD
+```
+
+##### short diff
+
+```shell
+git diff --stat
+```
+
+
+
+#### log
+
+#####all log
+
+```
+git log
+```
+
+#####short log
+
+```
+git log --oneline
+```
+
+##### graph log 
+
+```shell
+git log --oneline --graph
+```
+
+#####reverse log
+
+```shell
+git log --reverse
+```
+
+##### author log
+
+```
+git log --author=<username>
+```
+
+##### time log
+
+```
+git log --before={3.weeks.ago} --after={2008-08=08}
+```
+
+##### no merge log
+
+```
+git log --no-merges
+```
+
+
+
+
+
 #### merge
 
 ```shell
@@ -101,62 +192,21 @@ git merge <branchname>
 
 
 
-#### status
-
-#####short status
+#### mv
 
 ```shell
-git status -s
-```
-
-#####all status
-
-```shell
-git status
+git mv <filename> <new filename>
 ```
 
 
 
-#### diff
-
-#####work & native diff
+#### pull
 
 ```shell
-git diff
-```
-
-#####native & remote diff
-
-```shell
-git diff --cached
-```
-
-#####both
-
-```shell
-git diff HEAD
-```
-
-#####short diff
-
-```shell
-git diff --stat
+git pull origin
 ```
 
 
-
-#### commit
-
-#####commit to native with modify info
-
-```shell
-//1
-git add .
-git commit -m 'modify info'
-
-//2
-git commit -am 'modify info'
-```
 
 #### push
 
@@ -218,11 +268,79 @@ git rm –r *
 
 
 
-#### mv
+#### status
+
+##### short status
 
 ```shell
-git mv <filename> <new filename>
+git status -s
 ```
+
+##### all status
+
+```shell
+git status
+```
+
+
+
+#### tag
+
+##### add native tag
+
+```shell
+git tag -a <tagname> -m 'modify info'
+```
+
+#####delete native tag
+
+```shell
+git tag -d <tagname>
+```
+
+##### delete remote tag
+
+```
+git push
+```
+
+
+
+##### list tags
+
+```shell
+git tag
+```
+
+##### push tag
+
+```
+git push origin <tagname>
+```
+
+
+
+
+
+#### change git history author info
+
+[change git history author info](https://help.github.com/articles/changing-author-info/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
