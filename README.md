@@ -4,16 +4,16 @@
 
 #### add
 
-##### add some files
-
-```shell
-git add <file>...
-```
-
 ##### add all files
 
 ```shell
 git add .
+```
+
+##### add some files
+
+```shell
+git add <file>...
 ```
 
 
@@ -26,10 +26,32 @@ git add .
 git branch <branchname>
 ```
 
-##### switch
+##### create & checkout Immediately
+
+```shell
+git checkout -b <branchname>
+```
+
+##### checkout
 
 ```shell
 git checkout <branchname>
+```
+
+##### delete
+
+```shell
+git branch -d <branchname>
+```
+
+
+
+
+
+##### list all branch
+
+```shell
+git branch
 ```
 
 
