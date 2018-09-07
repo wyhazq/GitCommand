@@ -44,21 +44,11 @@ git checkout <branchname>
 git branch -d <branchname>
 ```
 
-
-
-
-
 ##### list all branch
 
 ```shell
 git branch
 ```
-
-
-
-
-
-
 
 
 
@@ -69,6 +59,36 @@ git branch
 ```shell
 git clone https://github.com/wyhazq/GitCommand.git
 ```
+
+
+
+#### config
+
+##### global userInfo
+
+```shell
+git config --global user.name 'username'
+git config --global user.email test@github.com
+```
+
+##### current git userInfo
+
+```shell
+git config -f .git/config user.name 'username'
+git config -f .git/config user.email test@github.com
+```
+
+
+
+#### merge
+
+```shell
+git merge <branchname>
+```
+
+
+
+
 
 
 
@@ -117,15 +137,6 @@ git diff --stat
 ```
 
 
-
-#### config
-
-#####global userInfo
-
-```shell
-git config --global user.name 'userName'
-git config --global user.email test@github.com
-```
 
 
 
