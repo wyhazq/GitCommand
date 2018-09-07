@@ -254,32 +254,6 @@ git push origin <branchname>
 
 
 
-#### reset
-
-##### cancel cached file
-
-```shell
-git reset HEAD <file>
-```
-
-##### cancel last commit
-
-```shell
-git reset HEAD^
-```
-
-
-
-#### remote
-
-##### remote info
-
-```shell
-git remote -v
-```
-
-
-
 #### rm
 
 ##### remove work file
@@ -304,6 +278,32 @@ git rm --cached <file>
 
 ```shell
 git rm –r * 
+```
+
+
+
+#### remote
+
+##### remote info
+
+```shell
+git remote -v
+```
+
+
+
+#### reset
+
+##### cancel cached file
+
+```shell
+git reset HEAD <file>
+```
+
+##### cancel last commit
+
+```shell
+git reset HEAD^
 ```
 
 
