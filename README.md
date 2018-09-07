@@ -1,6 +1,8 @@
 # GitCommand
 
-[Git 工作区、暂存区和版本库](http://www.runoob.com/git/git-workspace-index-repo.html)
+**4 space:** work cache native remote
+
+
 
 #### add
 
@@ -26,18 +28,6 @@ git add <file>...
 git branch <branchname>
 ```
 
-##### create & checkout Immediately
-
-```shell
-git checkout -b <branchname>
-```
-
-##### checkout
-
-```shell
-git checkout <branchname>
-```
-
 ##### delete native
 
 ```shell
@@ -61,6 +51,28 @@ git branch
 
 ```shell
 git branch -r
+```
+
+
+
+#### checkout
+
+##### create & checkout Immediately
+
+```shell
+git checkout -b <branchname>
+```
+
+##### checkout
+
+```shell
+git checkout <branchname>
+```
+
+##### discard changes
+
+```shell
+git checkout -- <file>
 ```
 
 
@@ -292,10 +304,22 @@ git remote -v
 
 #### reset
 
-##### cancel cached file
+##### reset all cache file
+
+```shell
+git reset .
+```
+
+##### reset native file
 
 ```shell
 git reset HEAD <file>
+```
+
+##### reset all native file
+
+```shell
+git reset HEAD .
 ```
 
 ##### cancel last commit
@@ -366,3 +390,4 @@ git push --tags
 #### change git history author info
 
 [change git history author info](https://help.github.com/articles/changing-author-info/)
+
