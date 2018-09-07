@@ -65,9 +65,9 @@ git branch -r
 
 
 
-####clone
+#### clone
 
-#####clone project
+##### clone project
 
 ```shell
 git clone https://github.com/wyhazq/GitCommand.git
@@ -146,7 +146,7 @@ git diff --stat
 
 #### fetch
 
-#####all update
+##### all update
 
 ```shell
 git fetch
@@ -168,13 +168,13 @@ git fetch origin <branchname>
 
 #### log
 
-#####all log
+##### all log
 
 ```
 git log
 ```
 
-#####short log
+##### short log
 
 ```
 git log --oneline
@@ -186,7 +186,7 @@ git log --oneline
 git log --oneline --graph
 ```
 
-#####reverse log
+##### reverse log
 
 ```shell
 git log --reverse
@@ -240,7 +240,7 @@ git pull origin
 
 #### push
 
-#####push current branch
+##### push current branch
 
 ```shell
 git push origin
@@ -256,13 +256,13 @@ git push origin <branchname>
 
 #### reset
 
-#####cancel cached file
+##### cancel cached file
 
 ```shell
 git reset HEAD <file>
 ```
 
-#####cancel last commit
+##### cancel last commit
 
 ```shell
 git reset HEAD^
@@ -282,7 +282,7 @@ git remote -v
 
 #### rm
 
-#####remove work file
+##### remove work file
 
 ```shell
 git rm <file>
@@ -300,7 +300,7 @@ git rm -f <file>
 git rm --cached <file>
 ```
 
-#####remove all file
+##### remove all file
 
 ```shell
 git rm –r * 
@@ -332,7 +332,7 @@ git status
 git tag -a <tagname> -m 'modify info'
 ```
 
-#####delete native tag
+##### delete native tag
 
 ```shell
 git tag -d <tagname>
