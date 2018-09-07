@@ -310,22 +310,16 @@ git remote -v
 git reset .
 ```
 
-##### reset native file
+##### reset cache file
 
 ```shell
-git reset HEAD <file>
+git reset <file>
 ```
 
-##### reset all native file
+##### cancel commit commit
 
 ```shell
-git reset HEAD .
-```
-
-##### cancel last commit
-
-```shell
-git reset HEAD^
+git reset --hard HEAD^
 ```
 
 
