@@ -2,6 +2,44 @@
 
 [Git 工作区、暂存区和版本库](http://www.runoob.com/git/git-workspace-index-repo.html)
 
+#### add
+
+##### add some files
+
+```shell
+git add <file>...
+```
+
+##### add all files
+
+```shell
+git add .
+```
+
+
+
+#### branch
+
+##### create
+
+```shell
+git branch <branchname>
+```
+
+##### switch
+
+```shell
+git checkout <branchname>
+```
+
+
+
+
+
+
+
+
+
 ####clone
 
 #####clone project
@@ -27,20 +65,6 @@ git status
 ```
 
 
-
-#### add
-
-#####add some files
-
-```shell
-git add <file>...
-```
-
-#####add all files
-
-```shell
-git add .
-```
 
 
 
@@ -159,4 +183,6 @@ git rm –r *
 ```shell
 git mv <filename> <new filename>
 ```
+
+
 
