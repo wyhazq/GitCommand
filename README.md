@@ -1,38 +1,38 @@
 # GitCommand
 
-###4 space: *work* *cache* *native* *remote*
+### 4 space: *work* *cache* *native* *remote*
 
-##Directory
+## Directory
 
 ##### [add](#add)
 
-#####[branch](#branch)
+##### [branch](#branch)
 
-#####[checkout](#checkout)
+##### [checkout](#checkout)
 
-#####[clone](#clone)
+##### [clone](#clone)
 
-#####[commit](#commit)
+##### [commit](#commit)
 
-#####[config](#config)
+##### [config](#config)
 
-#####[diff](#diff)
+##### [diff](#diff)
 
-#####[fetch](#fetch)
+##### [fetch](#fetch)
 
-#####[log](#log)
+##### [log](#log)
 
-#####[merge](#merge)
+##### [merge](#merge)
 
-#####[mv](#mv)
+##### [mv](#mv)
 
-#####[pull](#pull)
+##### [pull](#pull)
 
-#####[push](#push)
+##### [push](#push)
 
-#####[rm](#rm)
+##### [rm](#rm)
 
-#####[remote](#remote)
+##### [remote](#remote)
 
 ##### [reset](#reset)
 
