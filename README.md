@@ -40,7 +40,7 @@
 
 ##### [tag](#tag)
 
-##### [change git history author info](#change git history author info)
+##### [change git history author info](#change-git-history-author-info)
 
 
 
