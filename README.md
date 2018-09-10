@@ -20,6 +20,7 @@
 ##### [rm](#rm)
 ##### [remote](#remote)
 ##### [reset](#reset)
+##### [revert](#revert)
 ##### [status](#status)
 ##### [tag](#tag)
 ##### [change git history author info](#change-git-history-author-info-1)
@@ -341,6 +342,22 @@ git reset <file>
 
 ```shell
 git reset --hard HEAD^
+```
+
+
+
+#### revert
+
+##### revert last commit
+
+```shell
+git revert HEAD
+```
+
+##### revert commit version
+
+```shell
+git revert commit <commitId>
 ```
 
 
