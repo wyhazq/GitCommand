@@ -5,43 +5,24 @@
 ## Directory
 
 ##### [add](#add)
-
 ##### [branch](#branch)
-
 ##### [checkout](#checkout)
-
 ##### [clone](#clone)
-
 ##### [commit](#commit)
-
 ##### [config](#config)
-
 ##### [diff](#diff)
-
 ##### [fetch](#fetch)
-
 ##### [log](#log)
-
 ##### [merge](#merge)
-
 ##### [mv](#mv)
-
 ##### [pull](#pull)
-
 ##### [push](#push)
-
 ##### [rm](#rm)
-
 ##### [remote](#remote)
-
 ##### [reset](#reset)
-
 ##### [status](#status)
-
 ##### [tag](#tag)
-
-##### [change git history author info](#change-git-history-author-info)
-
+##### [change git history author info](#change-git-history-author-info-1)
 
 
 #### add
