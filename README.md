@@ -1,18 +1,58 @@
 # GitCommand
 
-**4 space:** work cache native remote
+###4 space: *work* *cache* *native* *remote*
+
+##Directory
+
+##### [add](#add)
+
+#####[branch](#branch)
+
+#####[checkout](#checkout)
+
+#####[clone](#clone)
+
+#####[commit](#commit)
+
+#####[config](#config)
+
+#####[diff](#diff)
+
+#####[fetch](#fetch)
+
+#####[log](#log)
+
+#####[merge](#merge)
+
+#####[mv](#mv)
+
+#####[pull](#pull)
+
+#####[push](#push)
+
+#####[rm](#rm)
+
+#####[remote](#remote)
+
+##### [reset](#reset)
+
+##### [status](#status)
+
+##### [tag](#tag)
+
+##### [change git history author info](#change git history author info)
 
 
 
 #### add
 
-##### add all files
+##### add all files to cache
 
 ```shell
 git add .
 ```
 
-##### add some files
+##### add some files to cache
 
 ```shell
 git add <file>...
@@ -304,19 +344,19 @@ git remote -v
 
 #### reset
 
-##### reset all cache file
+##### reset all cache file to work
 
 ```shell
 git reset .
 ```
 
-##### reset cache file
+##### reset cache file to work
 
 ```shell
 git reset <file>
 ```
 
-##### cancel commit commit
+##### cancel last commit
 
 ```shell
 git reset --hard HEAD^
