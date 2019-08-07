@@ -97,6 +97,12 @@ git checkout <branchname>
 git checkout -- <file>
 ```
 
+##### discard all changes
+
+```shell
+git checkout .
+```
+
 
 
 #### clone
